@@ -1,0 +1,11 @@
+Server Ready..........
+Client info:Socket[addr=/192.168.0.15,port=58374,localport=3000]
+ip:192.168.0.15, this.getName():Thread-3
+100#닉네임
+닉네임님이 입장하였습니다.
+Client info:Socket[addr=/192.168.0.15,port=58375,localport=3000]
+ip:192.168.0.15, this.getName():Thread-4
+100#닉네임2
+닉네임2님이 입장하였습니다.
+201#닉네임#아무말 대잔치
+201#닉네임2#아무말 대잔치입니다

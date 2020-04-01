@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "C:\\workspace_java\\dev_oracle"
+		},
+		{
+			"name": "demo",
+			"path": "C:\\visual_web\\demo"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.classpath": true,
+			"**/.project": true,
+			"**/.settings": true,
+			"**/.factorypath": true
+		}
+	}
+}
