@@ -7,7 +7,16 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 import javax.swing.JOptionPane;
-
+/*
+ * 소켓통신 2가지 방식.
+ * 
+ * TCP/IP방식 - 군사목적:안전, 신뢰도 높다., 장애가 발생하면 지속적으로 체크 다시 연결
+ * - 휴대전화 : 전달이 잘 되었는지 확인o
+ * 
+ * UDP방식 - 신뢰도는 낮다, 대용량 전송 유리, 보내고 나면 확인 불가[전송이 잘 되었는지..], 속도가 높다., 미디어 전송처리 유리
+ * - 편지(보내는이, 받는이) : 전달이 잘 되었는지 확인x
+ * 
+ */
 public class TcpChatServer extends Thread {
 	
 	ObjectInputStream ois = null;

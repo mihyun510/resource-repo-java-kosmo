@@ -12,6 +12,7 @@ public class TcpChatClient {
 	Socket socket = null;
 	final String _IP = "192.168.0.15";
 	final int _PORT = 5005;
+	
 	public TcpChatClient() {
 		// TODO Auto-generated constructor stub
 	}
